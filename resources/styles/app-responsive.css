@@ -1,0 +1,77 @@
+@media screen and (max-width: 800px) {
+    .form-container .form-header-container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+@media screen and (max-width: 890px) {
+    /* main behavior */
+    .main-container {
+        width: 100vw;
+        height: 100vh;
+    }
+    .main-container .main-flex-item {
+        justify-content: center;
+        height: 100%;
+    }
+    .main-container .main-flex-item {
+        width: 100%;
+        margin: 0;
+    }
+    .main-flex-item .main-headline {
+        color: #4e4e4e;
+        padding: 1rem;
+        top: 0;
+        height: 30%;
+    }
+    .main-headline .hidden-text-responsive {
+        display: none;
+    }
+    /* assets */
+    .smartphone-img {
+        width: 100%;
+
+    }
+    /* form */
+    .form-container {
+        height: 70%;
+        position: absolute;
+        bottom: 0;
+    }
+    .form-container .form-header-container {
+        height: 30%;
+        width: 100%;
+    }
+    .form-container .subscription-form {
+        height: 70%;
+        width: 100%;
+        padding-right: 0;
+        bottom: 0;
+        padding-top: 4rem;
+    }
+    .subscription-form .sub-form-headline {
+        padding: 1rem 1.6rem;
+    }
+    .subscription-form .form-input-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .subscription-form .form-input-standard {
+        flex: 1;
+        width: 100%;
+        padding: .8rem 1.2rem;
+    }
+    .subscription-form .form-submit-btn {
+        margin-top: 10px;
+    }
+    /* Thanks page */
+    .main-flex-item .thanks-headline {
+        color: #1b4164;
+        top: 20%;
+    }
+    .main-flex-item .thanks-headline .headline-strong {
+        color: #1b4164;
+        font-weight: 700;
+        font-size: 3.6rem;
+    }
+}
